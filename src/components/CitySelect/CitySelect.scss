@@ -1,0 +1,22 @@
+
+.city-select {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.city-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  img {
+    width: 20px;
+    height: auto;
+  }
+}
